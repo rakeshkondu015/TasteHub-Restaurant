@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TasteHub - Menu</title>
+
+  <!-- Bootstrap 4.6 CSS CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+  />
+
+  <!-- jQuery, Popper.js, and Bootstrap 4.6 JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="CSS/menu.css"/>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <span class="brand-logo text-warning">TasteHub</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <!-- Active page -->
+            <a class="nav-link active" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="offers.html">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="why.html">Why</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <a href="order.html" class="btn btn-warning ml-lg-3">Order Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MENU PAGE CONTENT -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="section-title">Our Full Menu</h2>
+      <p class="section-subtitle">
+        Explore our delicious range of pizzas, burgers, sides, desserts and beverages.
+      </p>
+
+      <!-- PIZZAS -->
+      <h4 class="mb-3">🍕 Pizzas</h4>
+      <div class="row">
+        <!-- Repeat cards and add more items -->
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card card-hover border-0 shadow-sm h-100">
+            <img src="Images/Menu/Classic Margherita.jpg" class="card-img-top food-img" alt="Margherita" />
+            <div class="card-body">
+              <h6 class="card-title">Classic Margherita</h6>
+              <p class="card-text small text-muted">
+                Fresh basil, mozzarella and tangy tomato sauce.
+              </p>
+              <span class="font-weight-bold">₹249</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card card-hover border-0 shadow-sm h-100">
+            <img src="Images/Menu/Veggie Overload.jpg" class="card-img-top food-img" alt="Veggie Overload" />
+            <div class="card-body">
+              <h6 class="card-title">Veggie Overload</h6>
+              <p class="card-text small text-muted">
+                Loaded with capsicum, onions, olives and sweet corn.
+              </p>
+              <span class="font-weight-bold">₹299</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card card-hover border-0 shadow-sm h-100">
+            <img src="Images/Menu/Spicy Chicken Feast.jpg" class="card-img-top food-img" alt="Chicken Feast" />
+            <div class="card-body">
+              <h6 class="card-title">Spicy Chicken Feast</h6>
+              <p class="card-text small text-muted">
+                Juicy chicken chunks with spicy sauce and cheese.
+              </p>
+              <span class="font-weight-bold">₹349</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card card-hover border-0 shadow-sm h-100">
+            <img src="Images/Menu/BBQ Chicken Pizza.jpg" class="card-img-top food-img" alt="BBQ Chicken" />
+            <div class="card-body">
+              <h6 class="card-title">BBQ Chicken Pizza</h6>
+              <p class="card-text small text-muted">
+                Smoky BBQ chicken with onions and cheese.
+              </p>
+              <span class="font-weight-bold">₹379</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BURGERS -->
+      <h4 class="mb-3 mt-4">🍔 Burgers</h4>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card card-hover border-0 shadow-sm h-100">
+            <img src="Images/Menu/Paneer Burger.jpg" class="card-img-top food-img" alt="Paneer Burger" />
+            <div class="card-body">
+              <h6 class="card-title">Paneer Burger</h6>
+              <p class="card-text small text-muted">
+                Crispy paneer patty with fresh veggies & sauce.
+              </p>
+              <span class="font-weight-bold">₹149</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card card-hover border-0 shadow-sm h-100">
+            <img src="Images/Menu/Corn & Cheese Burger.jpg" class="card-img-top food-img" alt="Corn Burger" />
+            <div class="card-body">
+              <h6 class="card-title">Corn & Cheese Burger</h6>
+              <p class="card-text small text-muted">
+                Creamy corn & cheese filling in a toasted bun.
+              </p>
+              <span class="font-weight-bold">₹159</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card card-hover border-0 shadow-sm h-100">
+            <img src="Images/Menu/Crispy Chicken Burger.jpg" class="card-img-top food-img" alt="Chicken Burger" />
+            <div class="card-body">
+              <h6 class="card-title">Crispy Chicken Burger</h6>
+              <p class="card-text small text-muted">
+                Juicy chicken fillet with crunchy lettuce.
+              </p>
+              <span class="font-weight-bold">₹179</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card card-hover border-0 shadow-sm h-100">
+            <img src="Images/Menu/Double Chicken Patty Burger.jpg" class="card-img-top food-img" alt="Double Chicken" />
+            <div class="card-body">
+              <h6 class="card-title">Double Chicken Patty Burger</h6>
+              <p class="card-text small text-muted">
+                Double the chicken, double the taste!
+              </p>
+              <span class="font-weight-bold">₹229</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DESSERTS -->
+      <h4 class="mb-3 mt-4">🧁 Desserts</h4>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card card-hover border-0 shadow-sm h-100">
+            <img src="Images/Menu/Red Velvet Cake.jpg" class="card-img-top food-img" alt="Red Velvet" />
+            <div class="card-body">
+              <h6 class="card-title">Red Velvet Cake</h6>
+              <p class="card-text small text-muted">
+                Soft red velvet slice with cream cheese frosting.
+              </p>
+              <span class="font-weight-bold">₹129</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card card-hover border-0 shadow-sm h-100">
+            <img src="Images/Menu/Butterscotch.jpg" class="card-img-top food-img" alt="Butterscotch" />
+            <div class="card-body">
+              <h6 class="card-title">Butterscotch Delight</h6>
+              <p class="card-text small text-muted">
+                Rich butterscotch pastry with crunchy bits.
+              </p>
+              <span class="font-weight-bold">₹119</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card card-hover border-0 shadow-sm h-100">
+            <img src="Images/Menu/Gulab Jamun.jpg" class="card-img-top food-img" alt="Gulab Jamun" />
+            <div class="card-body">
+              <h6 class="card-title">Gulab Jamun</h6>
+              <p class="card-text small text-muted">
+                Warm, soft jamuns soaked in sugar syrup.
+              </p>
+              <span class="font-weight-bold">₹79 (2 pcs)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card card-hover border-0 shadow-sm h-100">
+            <img src="Images/Menu/Waffle with Chocolate Syrup.jpg" class="card-img-top food-img" alt="Waffle" />
+            <div class="card-body">
+              <h6 class="card-title">Waffle with Chocolate Syrup</h6>
+              <p class="card-text small text-muted">
+                Crispy waffle drizzled with rich chocolate.
+              </p>
+              <span class="font-weight-bold">₹149</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BEVERAGES -->
+      <h4 class="mb-3 mt-4">🥤 Beverages</h4>
+      <ul class="list-group mb-4">
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Cold Coffee</span> <span>₹99</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Lemon Iced Tea</span> <span>₹79</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Soft Drinks (300 ml)</span> <span>₹49</span>
+        </li>
+      </ul>
+
+      <div class="text-center">
+        <a href="order.html" class="btn btn-primary btn-lg">Order Your Favourite Items</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h5 class="text-white">TasteHub</h5>
+          <p class="small">
+            Your favourite spot for hot and fresh pizzas, sides and desserts in
+            Hyderabad.
+          </p>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h6 class="text-white">Quick Links</h6>
+          <ul class="list-unstyled small">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-2 mb-md-0">
+          <h6 class="text-white">Follow Us</h6>
+          <p class="small mb-1">Instagram | Facebook | Twitter</p>
+          <p class="small mb-0">© 2025 TasteHub. All rights reserved.</p>
+          <p class="small mb-0">Developed By Rakesh Kondu</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
